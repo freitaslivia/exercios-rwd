@@ -1,4 +1,5 @@
-import React from 'react'
+import { Link } from "react-router-dom"
+import { listaProdutos } from "../../listaProdutos"
 
 export default function Produtos() {
   return (
