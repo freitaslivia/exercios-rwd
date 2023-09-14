@@ -8,7 +8,8 @@ import Error from './routes/Error/index.jsx';
 import Produtos from './routes/Produtos/index.jsx';
 
 const router = createBrowserRouter([
-  {path: '/',
+  {
+    path: '/',
    element: <App/>,
     errorElement: <Error/>,
     children:[
